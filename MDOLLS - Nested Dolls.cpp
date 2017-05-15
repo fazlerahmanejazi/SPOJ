@@ -3,10 +3,10 @@ using namespace std ;
 
 int T, n, w, h, sz ;
 
-bool cmp(const pair<int,int>& L, const pair<int,int>& R)
+bool cmp(const pair<int,int>& a, const pair<int,int>& b)
   {
-    if(L.first==R.first) return L.second<R.second ;
-    else return L.first>R.first ;
+    if(a.first==b.first) return a.second<b.second ;
+    else return a.first>b.first ;
   }
 
 int main()
