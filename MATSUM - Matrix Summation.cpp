@@ -18,8 +18,8 @@ using vlli = vector<long long int> ;
 using vpii = vector<pair<int, int>> ;
 
 int n, x, y, a, b, val, ans ;
-string s ;
 int tree[1024+10][1024+10], data[1024+10][1024+10] ;
+string s ;
 
 int sum(int x, int y)
   {
