@@ -18,7 +18,8 @@ using vvi = vector<vector<int>> ;
 using vlli = vector<long long int> ;
 using vpii = vector<pair<int, int>> ;
 
-lli n, m, k, l, r, val, x, mid, curr ;
+int n, m, k, l, r, x, mid ;
+lli curr, val ;
 vvi sector, test ;
 vlli tree ;
 vi req ;
